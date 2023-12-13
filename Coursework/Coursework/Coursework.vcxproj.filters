@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Raymarching">
+      <UniqueIdentifier>{f2ad05ad-df92-4d50-9e0d-497f74e10daa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Raymarching">
+      <UniqueIdentifier>{d0244428-e0b5-4e72-95c9-430f16bde333}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Raymarching">
+      <UniqueIdentifier>{192b6cfd-f648-4c98-82d3-74f452e34080}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\OldCoursework">
+      <UniqueIdentifier>{f13f3564-b9d2-4bea-86d8-2109d8444845}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\OldCoursework">
+      <UniqueIdentifier>{60a2aacc-4f6f-406b-959d-7a26dba90868}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\OldCoursework">
+      <UniqueIdentifier>{fa482823-0a01-427d-821f-296650add97a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Raymarching\Static Helpers">
+      <UniqueIdentifier>{fdb61aff-e696-4efb-af5c-0bead30a6318}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Raymarching\StaticHelpers">
+      <UniqueIdentifier>{94010263-ce1f-4e5c-b1b1-fed5b69cefec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Raymarching\octree">
+      <UniqueIdentifier>{663b98ed-7200-4c2c-a345-fd58b75cb7a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Raymarching\Heatmaps">
+      <UniqueIdentifier>{e7cf284a-3851-485b-b1d0-8fe9b1d72440}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="RaymarchingCompute.cpp">
+      <Filter>Source Files\Raymarching</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files\OldCoursework</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureShader.cpp">
+      <Filter>Source Files\OldCoursework</Filter>
+    </ClCompile>
+    <ClCompile Include="MarchingCubesCompute.cpp">
+      <Filter>Source Files\Raymarching</Filter>
+    </ClCompile>
+    <ClCompile Include="SparseVolume.cpp">
+      <Filter>Source Files\Raymarching</Filter>
+    </ClCompile>
+    <ClCompile Include="BrickShader.cpp">
+      <Filter>Source Files\Raymarching</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitCube.cpp">
+      <Filter>Source Files\Raymarching</Filter>
+    </ClCompile>
+    <ClCompile Include="DenseVolume.cpp">
+      <Filter>Source Files\Raymarching</Filter>
+    </ClCompile>
+    <ClCompile Include="App1.cpp">
+      <Filter>Source Files\Raymarching</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="App1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RaymarchingCompute.h">
+      <Filter>Header Files\Raymarching</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureShader.h">
+      <Filter>Header Files\OldCoursework</Filter>
+    </ClInclude>
+    <ClInclude Include="MarchingCubesCompute.h">
+      <Filter>Header Files\Raymarching</Filter>
+    </ClInclude>
+    <ClInclude Include="shaders\Scene.hlsli">
+      <Filter>Resource Files\Raymarching</Filter>
+    </ClInclude>
+    <ClInclude Include="shaders\SceneFunctions.hlsli">
+      <Filter>Resource Files\Raymarching</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticHelpers.h">
+      <Filter>Header Files\Raymarching\Static Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="BrickShader.h">
+      <Filter>Header Files\Raymarching</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitCube.h">
+      <Filter>Header Files\Raymarching</Filter>
+    </ClInclude>
+    <ClInclude Include="SparseVolume.h">
+      <Filter>Header Files\Raymarching</Filter>
+    </ClInclude>
+    <ClInclude Include="DenseVolume.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Structs.h">
+      <Filter>Resource Files\Raymarching</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="shaders\texture_ps.hlsl">
+      <Filter>Resource Files\OldCoursework</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\texture_vs.hlsl">
+      <Filter>Resource Files\OldCoursework</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\Brick_ps_Octree.hlsl">
+      <Filter>Resource Files\Raymarching</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\Brick_vs.hlsl">
+      <Filter>Resource Files\Raymarching</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\marching_cubes_cs.hlsl">
+      <Filter>Resource Files\Raymarching</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\FunctionalRaymarching_cs.hlsl">
+      <Filter>Resource Files\Raymarching</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\simple_light_ps.hlsl">
+      <Filter>Resource Files\Raymarching</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\OctreeConstructor_cs.hlsl">
+      <Filter>Resource Files\Raymarching\octree</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\OctreeBuilder.hlsl">
+      <Filter>Resource Files\Raymarching\octree</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\VolumeConstructor_cs.hlsl">
+      <Filter>Resource Files\Raymarching\octree</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\BrickBuilder.hlsl">
+      <Filter>Resource Files\Raymarching\octree</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\BrickEvaluator.hlsl">
+      <Filter>Resource Files\Raymarching\octree</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\SimpleOctree.hlsl">
+      <Filter>Resource Files\Raymarching\octree</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\OctreeRaymarching_cs.hlsl">
+      <Filter>Resource Files\Raymarching\octree</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\Brick_ps_DenseVolume.hlsl">
+      <Filter>Resource Files\Raymarching</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\Brick_ps_AnalyticalIntersection.hlsl">
+      <Filter>Resource Files\Raymarching</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\DenseVolume_cs.hlsl">
+      <Filter>Resource Files\Raymarching</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\DenseVolumeRaymarching_cs.hlsl">
+      <Filter>Resource Files\Raymarching</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\DenseVolumeRaymarching_cs_HeatMap.hlsl">
+      <Filter>Resource Files\Raymarching\Heatmaps</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\FunctionalRaymarching_cs_HeatMap.hlsl">
+      <Filter>Resource Files\Raymarching\Heatmaps</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\OctreeRaymarching_cs_HeatMap.hlsl">
+      <Filter>Resource Files\Raymarching\Heatmaps</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shaders\OctreeDefs.hlsli">
+      <Filter>Resource Files\Raymarching\octree</Filter>
+    </None>
+  </ItemGroup>
+</Project>
