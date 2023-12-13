@@ -1,2 +1,2 @@
 # RaymarchingSparceSDFs
- Honours Project exploring the implementation of Gpu based sparce dynamic SDF octrees
+ Honours Project exploring the implementation of Gpu based sparse dynamic SDF octrees
